@@ -44,6 +44,42 @@
     font-family: Arial, sans-serif;
    }
 
+   /* Mobile Safe Responsive CSS */
+@media (max-width: 768px) {
+
+    body {
+        width: 95%;
+        padding: 5px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .first .pic {
+        width: 100px;
+        height: auto;
+        margin: 10px; /* reduce original 70px margin */
+    }
+
+    .whole .text {
+        padding: 10px;  /* reduce original 80px padding */
+        font-size: 14px;
+    }
+
+    /* Reduce margin-left of second column in skills, languages, education */
+    .skills div:nth-child(2),
+    .languages div:nth-child(2),
+    .education div:nth-child(2) {
+        margin-left: 20px; /* instead of 250px, 210px, etc. */
+    }
+
+    .skills div, .languages div, .education div {
+        font-size: 13px;
+    }
+}
+
    
 </style>
     
