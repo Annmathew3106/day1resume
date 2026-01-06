@@ -43,74 +43,8 @@
     margin-left: 70px;
     font-family: Arial, sans-serif;
    }
-/* Responsive for tablets */
-@media (max-width: 1024px) {
-    body {
-        width: 90%;       /* reduce fixed width */
-        height: auto;     /* let it grow */
-        border-width: 1px;
-        padding: 10px;
-    }
 
-    .whole {
-        flex-direction: column; /* stack picture and text */
-        align-items: center;
-    }
-
-    .first .pic {
-        margin: 20px auto;
-        width: 120px;
-        height: auto;
-    }
-
-    .whole .text {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .skills, .languages, .education {
-        display: block; /* stack content */
-        margin-left: 0;
-        padding: 10px;
-    }
-
-    .skills div:nth-child(2),
-    .languages div:nth-child(2),
-    .education div:nth-child(2) {
-        margin-left: 0; /* remove large fixed margins */
-        margin-top: 10px;
-    }
-}
-
-/* Responsive for mobile */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 24px;
-    }
-
-    .first .pic {
-        width: 100px;
-        margin: 10px auto;
-    }
-
-    .whole .text {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .skills div, .languages div, .education div {
-        font-size: 14px;
-    }
-
-    .skills div:nth-child(2),
-    .languages div:nth-child(2),
-    .education div:nth-child(2) {
-        margin-left: 0;
-        margin-top: 5px;
-    }
-}
-
-
+   
 </style>
     
 </head>
